@@ -227,9 +227,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (v.getId()) {
 
             case R.id.btn_open: {
-                //Intent intent = new Intent(this, MainActivity.class);
-                //startActivity(intent);
-                //break;
+                Intent intent = new Intent(this, Main2Activity.class);
+                startActivity(intent);
+                break;
             }
             default:
                 break;
